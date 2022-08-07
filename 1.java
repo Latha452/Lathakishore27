@@ -1,1 +1,11 @@
 First Line
+pipeline {
+agent any 
+stages{
+Stage('Hello') {
+steps {
+Echo "hello World"
+}
+}
+}
+}
